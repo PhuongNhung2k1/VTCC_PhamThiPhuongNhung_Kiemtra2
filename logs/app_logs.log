@@ -3271,3 +3271,51 @@ Session ID: 88a2cbf0fbf787739d2347242a6cf120
 [INFO] 13-06-2024 21:10:51 [main] LogUtils - Set text: npp on element By.xpath: //input[@id='search']
 [INFO] 13-06-2024 21:10:55 [main] LogUtils - PASSED!! Test case testAddNewProduct
 [INFO] 13-06-2024 21:10:55 [main] LogUtils - onFinish: Thu Jun 13 21:10:55 ICT 2024
+[INFO] 13-06-2024 21:54:09 [main] LogUtils - onStart: Thu Jun 13 21:54:08 ICT 2024
+[INFO] 13-06-2024 21:54:22 [main] LogUtils - onStart: Thu Jun 13 21:54:21 ICT 2024
+[INFO] 13-06-2024 21:54:24 [main] LogUtils - Start test case testAddNewProduct
+[INFO] 13-06-2024 21:54:26 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:54:27 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 21:54:27 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 21:54:32 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 21:54:32 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Products']
+[INFO] 13-06-2024 21:54:33 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Add New Product']
+[INFO] 13-06-2024 21:54:33 [main] LogUtils - Set text:  on element By.xpath: //input[@placeholder='Product Name']
+[INFO] 13-06-2024 21:54:33 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Save & Publish']
+[INFO] 13-06-2024 21:54:34 [main] LogUtils - Set text: npp on element By.xpath: //input[@placeholder='Product Name']
+[INFO] 13-06-2024 21:54:34 [main] LogUtils - Click element By.xpath: //div[contains(text(),'Sport shoes')]
+[INFO] 13-06-2024 21:54:35 [main] LogUtils - Click element By.xpath: //li//a[@id='bs-select-1-1']
+[INFO] 13-06-2024 21:54:36 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Brand']/following-sibling::div//button
+[INFO] 13-06-2024 21:54:36 [main] LogUtils - Click element By.xpath: //a[@id='bs-select-2-1']
+[INFO] 13-06-2024 21:54:36 [main] LogUtils - Set text: Kg on element By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 13-06-2024 21:54:36 [main] LogUtils - Set text: 0,5 on element By.xpath: //input[@placeholder='0.00']
+[INFO] 13-06-2024 21:54:36 [main] LogUtils - Set text: 1 on element By.xpath: //input[@name='min_qty']
+[INFO] 13-06-2024 21:54:36 [main] LogUtils - Set text: Clother on element By.xpath: //span[@role='textbox']
+[INFO] 13-06-2024 21:54:36 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Gallery Images (600x600)']/following-sibling::div
+[INFO] 13-06-2024 21:54:38 [main] LogUtils - Click element By.xpath: //div[@title='anh.png']
+[INFO] 13-06-2024 21:54:38 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Add Files']
+[INFO] 13-06-2024 21:54:40 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Thumbnail Image (300x300)']/following-sibling::div//div[2]
+[INFO] 13-06-2024 21:54:41 [main] LogUtils - Click element By.xpath: //div[@title='Cosy.png']//img[@class='img-fit']
+[INFO] 13-06-2024 21:54:41 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Add Files']
+[INFO] 13-06-2024 21:54:42 [main] LogUtils - Click element By.xpath: //div[contains(text(),'Youtube')]
+[INFO] 13-06-2024 21:54:42 [main] LogUtils - Click element By.xpath: //li//a[@id='bs-select-3-1']
+[INFO] 13-06-2024 21:54:44 [main] LogUtils - Click element By.xpath: //div[@class='col-md-1']//label[@class='aiz-switch aiz-switch-success mb-0']
+[INFO] 13-06-2024 21:54:44 [main] LogUtils - Click element By.xpath: (//div[contains(text(),'Nothing selected')])[1]
+[INFO] 13-06-2024 21:54:44 [main] LogUtils - Click element By.xpath: //li//a[@id='bs-select-4-3']
+[INFO] 13-06-2024 21:54:44 [main] LogUtils - Click element By.xpath: //div[@class='col-md-1']//label[@class='aiz-switch aiz-switch-success mb-0']
+[INFO] 13-06-2024 21:54:45 [main] LogUtils - Set text: 200 on element By.xpath: //input[@placeholder='Unit price']
+[INFO] 13-06-2024 21:54:48 [main] LogUtils - Set text: 5 on element By.xpath: //input[@placeholder='Discount']
+[INFO] 13-06-2024 21:54:49 [main] LogUtils - Set text: 20 on element By.xpath: //input[@placeholder='Quantity']
+[INFO] 13-06-2024 21:54:50 [main] LogUtils - Set text: 9 on element By.xpath: //input[@placeholder='SKU']
+[INFO] 13-06-2024 21:54:50 [main] LogUtils - Set text: https://viettel.com.vn on element By.xpath: //input[@placeholder='External link']
+[INFO] 13-06-2024 21:54:52 [main] LogUtils - Set text: Product description on element By.xpath: //div[@role='textbox']
+[INFO] 13-06-2024 21:54:54 [main] LogUtils - Set text: This is meta title on element By.xpath: //input[@placeholder='Meta Title']
+[INFO] 13-06-2024 21:54:56 [main] LogUtils - Set text: This is meta description on element By.xpath: //textarea[@name='meta_description']
+[INFO] 13-06-2024 21:54:58 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Meta Image']//following-sibling::div
+[INFO] 13-06-2024 21:55:00 [main] LogUtils - Click element By.xpath: //div[@title='images.jpg']//img[@class='img-fit']
+[INFO] 13-06-2024 21:55:00 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Add Files']
+[INFO] 13-06-2024 21:55:02 [main] LogUtils - Set text: 5 on element By.xpath: //input[@name='low_stock_quantity']
+[INFO] 13-06-2024 21:55:06 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Save & Publish']
+[INFO] 13-06-2024 21:55:07 [main] LogUtils - Set text: npp on element By.xpath: //input[@id='search']
+[INFO] 13-06-2024 21:55:11 [main] LogUtils - PASSED!! Test case testAddNewProduct
+[INFO] 13-06-2024 21:55:11 [main] LogUtils - onFinish: Thu Jun 13 21:55:11 ICT 2024
