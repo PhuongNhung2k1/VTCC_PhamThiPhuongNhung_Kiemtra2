@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Parallel Test" verbose="1">
+    <test name="Add New Product Test Parallel" parallel="methods">
+        <parameter name="browserName" value="chorme"/>
+        <classes>
+            <class name="com.nhungptp.BaiKiemtra2.testcases.AddNewProductTest" />
+        </classes>
+    </test>
+</suite>
