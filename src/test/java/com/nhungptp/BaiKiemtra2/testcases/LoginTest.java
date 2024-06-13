@@ -29,28 +29,8 @@ public class LoginTest extends BaseTest {
         loginPage.loginCRM(excelHelper.getCellData("EMAIL", 1),
                 excelHelper.getCellData("PASSWORD", 1));
         loginPage.verifyLoginSuccess();
-        loginPage.logout();
-        loginPage.verifyRedirectToLoginPage();
-
         excelHelper.setCellData("Passed", "STATUS", 1);
         CaptureHelper.captureScreenshot("LoginSuccess");
-
-//        TakesScreenshot ts = (TakesScreenshot) DriverManager.getDriver();
-//        File source = ts.getScreenshotAs(OutputType.FILE);
-//
-//        File theDir = new File("./screenshots/");
-//        if (!theDir.exists()) {
-//            theDir.mkdirs();
-//        }
-//
-//        try {
-//            FileHandler.copy(source, new File("./screenshots/testLoginSuccess.png"));
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
-//
-//        System.out.println("Screenshot success !!");
-
 
     }
 
@@ -66,9 +46,8 @@ public class LoginTest extends BaseTest {
         loginPage.loginCRM(excelHelper.getCellData("EMAIL", 2),
                 excelHelper.getCellData("PASSWORD", 2));
         loginPage.verifyLoginFail("Invalid email or password");
-
+        CaptureHelper.captureScreenshot("testLoginFailWithEmailInvalid");
         excelHelper.setCellData("Passed", "STATUS", 2);
-        WebUI.sleep(1);
     }
 
     @Test(priority = 3)
@@ -80,9 +59,9 @@ public class LoginTest extends BaseTest {
         loginPage.loginCRM(excelHelper.getCellData("EMAIL", 3),
                 excelHelper.getCellData("PASSWORD", 3));
         loginPage.verifyLoginFail("The Email Address field is required. 123");
-
-        excelHelper.setCellData("Passed", "STATUS", 3);
+        CaptureHelper.captureScreenshot("testLoginFailWithEmailNull");
         WebUI.sleep(1);
+        excelHelper.setCellData("Passed", "STATUS", 3);
     }
 
     @Test(priority = 4)
@@ -94,8 +73,9 @@ public class LoginTest extends BaseTest {
         loginPage.loginCRM(excelHelper.getCellData("EMAIL", 4),
                 excelHelper.getCellData("PASSWORD", 4));
         loginPage.verifyLoginFail("Invalid email or password");
-
+        CaptureHelper.captureScreenshot("testLoginFailWithPasswordInvalid");
         excelHelper.setCellData("Passed", "STATUS", 4);
+
     }
 
     @Test(priority = 5)
@@ -109,6 +89,6 @@ public class LoginTest extends BaseTest {
         loginPage.verifyLoginFail("The Password field is required.");
 
         excelHelper.setCellData("Passed", "STATUS", 5);
-        WebUI.sleep(1);
+
     }
 }

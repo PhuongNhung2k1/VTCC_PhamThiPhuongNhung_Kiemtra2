@@ -38,12 +38,5 @@ public class LoginPage extends CommonPage {
         Assert.assertEquals(WebUI.getElementText(errorMessage), errorMassageContent, "Content of error massage NOT match.");
     }
 
-    public void verifyRedirectToLoginPage() {
-        boolean checkHeader = WebUI.isDisplayed(headerPage);
-        String textHeader = WebUI.getElementText(headerPage);
-
-        Assert.assertTrue(checkHeader, "The header of Login page not display.");
-        Assert.assertEquals(textHeader, "Login", "The header content of Login page not match.");
-    }
 
 }

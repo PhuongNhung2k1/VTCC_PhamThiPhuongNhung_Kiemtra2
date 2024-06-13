@@ -18,12 +18,6 @@ public class AddNewProductTest extends BaseTest {
                 .addNewProductFail()
                 .addNewProduct();
 
-//        loginPage.loginCRM("admin@example.com", "123456")
-//                .openCustomerPage()
-//                .verifyRedirectToCustomerPage()
-//                .addNewCustomer(CUSTOMER_NAME)
-//                .verifyAddNewCustomer(CUSTOMER_NAME);
-
     }
 
 }

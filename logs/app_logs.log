@@ -2944,3 +2944,330 @@ Session ID: 2469616446ba544b220a9378407d21c6
 [INFO] 13-06-2024 20:36:25 [TestNG-test=Login Test Parallel-1] LogUtils - Set text: npp on element By.xpath: //input[@id='search']
 [INFO] 13-06-2024 20:36:29 [TestNG-test=Login Test Parallel-1] LogUtils - PASSED!! Test case testAddNewProduct
 [INFO] 13-06-2024 20:36:29 [main] LogUtils - onFinish: Thu Jun 13 20:36:29 ICT 2024
+[INFO] 13-06-2024 20:45:14 [main] LogUtils - onStart: Thu Jun 13 20:45:13 ICT 2024
+[INFO] 13-06-2024 20:45:16 [main] LogUtils - Start test case testAddNewProduct
+[INFO] 13-06-2024 20:45:19 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:45:19 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 20:45:19 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 20:45:22 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 20:45:22 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Products']
+[INFO] 13-06-2024 20:45:24 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Add New Product']
+[INFO] 13-06-2024 20:45:24 [main] LogUtils - Set text:  on element By.xpath: //input[@placeholder='Product Name']
+[INFO] 13-06-2024 20:45:24 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Save & Publish']
+[INFO] 13-06-2024 20:45:25 [main] LogUtils - Set text: npp on element By.xpath: //input[@placeholder='Product Name']
+[INFO] 13-06-2024 20:45:25 [main] LogUtils - Click element By.xpath: //div[contains(text(),'Sport shoes')]
+[INFO] 13-06-2024 20:45:26 [main] LogUtils - Click element By.xpath: //li//a[@id='bs-select-1-1']
+[INFO] 13-06-2024 20:45:27 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Brand']/following-sibling::div//button
+[INFO] 13-06-2024 20:45:27 [main] LogUtils - Click element By.xpath: //a[@id='bs-select-2-1']
+[INFO] 13-06-2024 20:45:27 [main] LogUtils - Set text: Kg on element By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 13-06-2024 20:45:27 [main] LogUtils - Set text: 0,5 on element By.xpath: //input[@placeholder='0.00']
+[INFO] 13-06-2024 20:45:27 [main] LogUtils - Set text: 1 on element By.xpath: //input[@name='min_qty']
+[INFO] 13-06-2024 20:45:28 [main] LogUtils - Set text: Clother on element By.xpath: //span[@role='textbox']
+[INFO] 13-06-2024 20:45:28 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Gallery Images (600x600)']/following-sibling::div
+[INFO] 13-06-2024 20:45:29 [main] LogUtils - Click element By.xpath: //div[@title='anh.png']
+[INFO] 13-06-2024 20:45:29 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Add Files']
+[INFO] 13-06-2024 20:45:31 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Thumbnail Image (300x300)']/following-sibling::div//div[2]
+[INFO] 13-06-2024 20:45:32 [main] LogUtils - Click element By.xpath: //div[@title='Cosy.png']//img[@class='img-fit']
+[INFO] 13-06-2024 20:45:32 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Add Files']
+[INFO] 13-06-2024 20:45:33 [main] LogUtils - Click element By.xpath: //div[contains(text(),'Youtube')]
+[INFO] 13-06-2024 20:45:33 [main] LogUtils - Click element By.xpath: //li//a[@id='bs-select-3-1']
+[INFO] 13-06-2024 20:45:35 [main] LogUtils - Click element By.xpath: //div[@class='col-md-1']//label[@class='aiz-switch aiz-switch-success mb-0']
+[INFO] 13-06-2024 20:45:35 [main] LogUtils - Click element By.xpath: (//div[contains(text(),'Nothing selected')])[1]
+[INFO] 13-06-2024 20:45:35 [main] LogUtils - Click element By.xpath: //li//a[@id='bs-select-4-3']
+[INFO] 13-06-2024 20:45:35 [main] LogUtils - Click element By.xpath: //div[@class='col-md-1']//label[@class='aiz-switch aiz-switch-success mb-0']
+[INFO] 13-06-2024 20:45:36 [main] LogUtils - Set text: 200 on element By.xpath: //input[@placeholder='Unit price']
+[INFO] 13-06-2024 20:45:39 [main] LogUtils - Set text: 5 on element By.xpath: //input[@placeholder='Discount']
+[INFO] 13-06-2024 20:45:40 [main] LogUtils - Set text: 20 on element By.xpath: //input[@placeholder='Quantity']
+[INFO] 13-06-2024 20:45:41 [main] LogUtils - Set text: 9 on element By.xpath: //input[@placeholder='SKU']
+[INFO] 13-06-2024 20:45:41 [main] LogUtils - Set text: https://viettel.com.vn on element By.xpath: //input[@placeholder='External link']
+[INFO] 13-06-2024 20:45:42 [main] LogUtils - Set text: Product description on element By.xpath: //div[@role='textbox']
+[INFO] 13-06-2024 20:45:45 [main] LogUtils - Set text: This is meta title on element By.xpath: //input[@placeholder='Meta Title']
+[INFO] 13-06-2024 20:45:47 [main] LogUtils - Set text: This is meta description on element By.xpath: //textarea[@name='meta_description']
+[INFO] 13-06-2024 20:45:49 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Meta Image']//following-sibling::div
+[INFO] 13-06-2024 20:45:50 [main] LogUtils - Click element By.xpath: //div[@title='images.jpg']//img[@class='img-fit']
+[INFO] 13-06-2024 20:45:50 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Add Files']
+[INFO] 13-06-2024 20:45:52 [main] LogUtils - Set text: 5 on element By.xpath: //input[@name='low_stock_quantity']
+[INFO] 13-06-2024 20:45:55 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Save & Publish']
+[INFO] 13-06-2024 20:45:56 [main] LogUtils - Set text: npp on element By.xpath: //input[@id='search']
+[INFO] 13-06-2024 20:45:59 [main] LogUtils - PASSED!! Test case testAddNewProduct
+[INFO] 13-06-2024 20:45:59 [main] LogUtils - onFinish: Thu Jun 13 20:45:59 ICT 2024
+[INFO] 13-06-2024 20:49:10 [main] LogUtils - onStart: Thu Jun 13 20:49:09 ICT 2024
+[INFO] 13-06-2024 20:49:12 [main] LogUtils - Start test case testLoginSuccess
+[INFO] 13-06-2024 20:49:19 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:49:19 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 20:49:19 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 20:49:23 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 20:49:23 [main] LogUtils - Get Current URL: https://cms.anhtester.com/admin
+[INFO] 13-06-2024 20:49:33 [main] LogUtils - FAILED!! Test case testLoginSuccess
+[ERROR] 13-06-2024 20:49:33 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //a[contains(@class,'dropdown-toggle profile')]
+[INFO] 13-06-2024 20:49:35 [main] LogUtils - Start test case testLoginFailWithEmailInvalid
+[INFO] 13-06-2024 20:49:37 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:49:37 [main] LogUtils - Set text: admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 20:49:37 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 20:49:38 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 20:49:38 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:49:38 [main] LogUtils - FAILED!! Test case testLoginFailWithEmailInvalid
+[ERROR] 13-06-2024 20:49:38 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 20:49:40 [main] LogUtils - Start test case testLoginFailWithEmailNull
+[INFO] 13-06-2024 20:49:41 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:49:42 [main] LogUtils - Set text:  on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 20:49:42 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 20:49:42 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 20:49:42 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:49:42 [main] LogUtils - FAILED!! Test case testLoginFailWithEmailNull
+[ERROR] 13-06-2024 20:49:42 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 20:49:44 [main] LogUtils - Start test case testLoginFailWithPasswordInvalid
+[INFO] 13-06-2024 20:49:46 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:49:46 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 20:49:46 [main] LogUtils - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 20:49:47 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 20:49:47 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:49:47 [main] LogUtils - FAILED!! Test case testLoginFailWithPasswordInvalid
+[ERROR] 13-06-2024 20:49:47 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 20:49:49 [main] LogUtils - Start test case testLoginFailWithPasswordNull
+[INFO] 13-06-2024 20:49:51 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:49:51 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 20:49:51 [main] LogUtils - Set text:  on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 20:49:51 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 20:49:51 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:49:51 [main] LogUtils - FAILED!! Test case testLoginFailWithPasswordNull
+[ERROR] 13-06-2024 20:49:51 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 20:49:53 [main] LogUtils - onFinish: Thu Jun 13 20:49:53 ICT 2024
+[INFO] 13-06-2024 20:51:18 [main] LogUtils - onStart: Thu Jun 13 20:51:18 ICT 2024
+[INFO] 13-06-2024 20:51:20 [main] LogUtils - Start test case testLoginSuccess
+[INFO] 13-06-2024 20:51:26 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:51:26 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 20:51:26 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 20:51:45 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 20:51:45 [main] LogUtils - Get Current URL: https://cms.anhtester.com/admin
+[INFO] 13-06-2024 20:51:55 [main] LogUtils - FAILED!! Test case testLoginSuccess
+[ERROR] 13-06-2024 20:51:55 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //a[contains(@class,'dropdown-toggle profile')]
+[INFO] 13-06-2024 20:51:56 [main] LogUtils - onFinish: Thu Jun 13 20:51:56 ICT 2024
+[INFO] 13-06-2024 20:53:59 [main] LogUtils - onStart: Thu Jun 13 20:53:58 ICT 2024
+[INFO] 13-06-2024 20:54:01 [main] LogUtils - Start test case testAddNewProduct
+[INFO] 13-06-2024 20:54:03 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:54:03 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 20:54:03 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 20:54:07 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 20:54:07 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Products']
+[INFO] 13-06-2024 20:54:09 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Add New Product']
+[INFO] 13-06-2024 20:54:09 [main] LogUtils - Set text:  on element By.xpath: //input[@placeholder='Product Name']
+[INFO] 13-06-2024 20:54:09 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Save & Publish']
+[INFO] 13-06-2024 20:54:10 [main] LogUtils - Set text: npp on element By.xpath: //input[@placeholder='Product Name']
+[INFO] 13-06-2024 20:54:11 [main] LogUtils - Click element By.xpath: //div[contains(text(),'Sport shoes')]
+[INFO] 13-06-2024 20:54:11 [main] LogUtils - Click element By.xpath: //li//a[@id='bs-select-1-1']
+[INFO] 13-06-2024 20:54:12 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Brand']/following-sibling::div//button
+[INFO] 13-06-2024 20:54:12 [main] LogUtils - Click element By.xpath: //a[@id='bs-select-2-1']
+[INFO] 13-06-2024 20:54:12 [main] LogUtils - Set text: Kg on element By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 13-06-2024 20:54:12 [main] LogUtils - Set text: 0,5 on element By.xpath: //input[@placeholder='0.00']
+[INFO] 13-06-2024 20:54:12 [main] LogUtils - Set text: 1 on element By.xpath: //input[@name='min_qty']
+[INFO] 13-06-2024 20:54:12 [main] LogUtils - Set text: Clother on element By.xpath: //span[@role='textbox']
+[INFO] 13-06-2024 20:54:13 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Gallery Images (600x600)']/following-sibling::div
+[INFO] 13-06-2024 20:54:14 [main] LogUtils - Click element By.xpath: //div[@title='anh.png']
+[INFO] 13-06-2024 20:54:14 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Add Files']
+[INFO] 13-06-2024 20:54:16 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Thumbnail Image (300x300)']/following-sibling::div//div[2]
+[INFO] 13-06-2024 20:54:17 [main] LogUtils - Click element By.xpath: //div[@title='Cosy.png']//img[@class='img-fit']
+[INFO] 13-06-2024 20:54:17 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Add Files']
+[INFO] 13-06-2024 20:54:18 [main] LogUtils - Click element By.xpath: //div[contains(text(),'Youtube')]
+[INFO] 13-06-2024 20:54:18 [main] LogUtils - Click element By.xpath: //li//a[@id='bs-select-3-1']
+[INFO] 13-06-2024 20:54:20 [main] LogUtils - Click element By.xpath: //div[@class='col-md-1']//label[@class='aiz-switch aiz-switch-success mb-0']
+[INFO] 13-06-2024 20:54:20 [main] LogUtils - Click element By.xpath: (//div[contains(text(),'Nothing selected')])[1]
+[INFO] 13-06-2024 20:54:20 [main] LogUtils - Click element By.xpath: //li//a[@id='bs-select-4-3']
+[INFO] 13-06-2024 20:54:20 [main] LogUtils - Click element By.xpath: //div[@class='col-md-1']//label[@class='aiz-switch aiz-switch-success mb-0']
+[INFO] 13-06-2024 20:54:21 [main] LogUtils - Set text: 200 on element By.xpath: //input[@placeholder='Unit price']
+[INFO] 13-06-2024 20:54:24 [main] LogUtils - Set text: 5 on element By.xpath: //input[@placeholder='Discount']
+[INFO] 13-06-2024 20:54:25 [main] LogUtils - Set text: 20 on element By.xpath: //input[@placeholder='Quantity']
+[INFO] 13-06-2024 20:54:26 [main] LogUtils - Set text: 9 on element By.xpath: //input[@placeholder='SKU']
+[INFO] 13-06-2024 20:54:26 [main] LogUtils - Set text: https://viettel.com.vn on element By.xpath: //input[@placeholder='External link']
+[INFO] 13-06-2024 20:54:28 [main] LogUtils - Set text: Product description on element By.xpath: //div[@role='textbox']
+[INFO] 13-06-2024 20:54:30 [main] LogUtils - Set text: This is meta title on element By.xpath: //input[@placeholder='Meta Title']
+[INFO] 13-06-2024 20:54:32 [main] LogUtils - Set text: This is meta description on element By.xpath: //textarea[@name='meta_description']
+[INFO] 13-06-2024 20:54:34 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Meta Image']//following-sibling::div
+[INFO] 13-06-2024 20:54:35 [main] LogUtils - Click element By.xpath: //div[@title='images.jpg']//img[@class='img-fit']
+[INFO] 13-06-2024 20:54:35 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Add Files']
+[INFO] 13-06-2024 20:54:37 [main] LogUtils - Set text: 5 on element By.xpath: //input[@name='low_stock_quantity']
+[INFO] 13-06-2024 20:54:44 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Save & Publish']
+[INFO] 13-06-2024 20:54:45 [main] LogUtils - Set text: npp on element By.xpath: //input[@id='search']
+[INFO] 13-06-2024 20:54:48 [main] LogUtils - PASSED!! Test case testAddNewProduct
+[INFO] 13-06-2024 20:54:49 [main] LogUtils - onFinish: Thu Jun 13 20:54:49 ICT 2024
+[INFO] 13-06-2024 20:56:40 [main] LogUtils - onStart: Thu Jun 13 20:56:39 ICT 2024
+[INFO] 13-06-2024 20:56:42 [main] LogUtils - Start test case testLoginSuccess
+[INFO] 13-06-2024 20:56:46 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:56:47 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 20:56:47 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 20:56:49 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 20:56:49 [main] LogUtils - Get Current URL: https://cms.anhtester.com/admin
+[INFO] 13-06-2024 20:57:00 [main] LogUtils - FAILED!! Test case testLoginSuccess
+[ERROR] 13-06-2024 20:57:00 [main] LogUtils - java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //a[contains(@class,'dropdown-toggle profile')]
+[INFO] 13-06-2024 20:57:02 [main] LogUtils - Start test case testLoginFailWithEmailInvalid
+[INFO] 13-06-2024 20:57:03 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:57:03 [main] LogUtils - Set text: admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 20:57:04 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 20:57:05 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 20:57:05 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:57:05 [main] LogUtils - FAILED!! Test case testLoginFailWithEmailInvalid
+[ERROR] 13-06-2024 20:57:05 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 20:57:07 [main] LogUtils - Start test case testLoginFailWithEmailNull
+[INFO] 13-06-2024 20:57:08 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:57:08 [main] LogUtils - Set text:  on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 20:57:09 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 20:57:09 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 20:57:09 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:57:09 [main] LogUtils - FAILED!! Test case testLoginFailWithEmailNull
+[ERROR] 13-06-2024 20:57:09 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 20:57:11 [main] LogUtils - Start test case testLoginFailWithPasswordInvalid
+[INFO] 13-06-2024 20:57:12 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:57:13 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 20:57:13 [main] LogUtils - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 20:57:14 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 20:57:14 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:57:14 [main] LogUtils - FAILED!! Test case testLoginFailWithPasswordInvalid
+[ERROR] 13-06-2024 20:57:14 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 20:57:16 [main] LogUtils - Start test case testLoginFailWithPasswordNull
+[INFO] 13-06-2024 20:57:17 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:57:18 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 20:57:18 [main] LogUtils - Set text:  on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 20:57:18 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 20:57:18 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 20:57:18 [main] LogUtils - FAILED!! Test case testLoginFailWithPasswordNull
+[ERROR] 13-06-2024 20:57:18 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 20:57:19 [main] LogUtils - onFinish: Thu Jun 13 20:57:19 ICT 2024
+[INFO] 13-06-2024 21:02:32 [main] LogUtils - onStart: Thu Jun 13 21:02:32 ICT 2024
+[INFO] 13-06-2024 21:02:34 [main] LogUtils - Start test case testLoginSuccess
+[INFO] 13-06-2024 21:02:40 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:02:40 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 21:02:40 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 21:02:42 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 21:02:42 [main] LogUtils - Get Current URL: https://cms.anhtester.com/admin
+[INFO] 13-06-2024 21:02:42 [main] LogUtils - FAILED!! Test case testLoginSuccess
+[ERROR] 13-06-2024 21:02:42 [main] LogUtils - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Login']"}
+  (Session info: chrome=125.0.6422.144)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88a2cbf0fbf787739d2347242a6cf120, findElement {using=xpath, value=//h1[normalize-space()='Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.144, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64534/devtoo..., se:cdpVersion: 125.0.6422.144, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88a2cbf0fbf787739d2347242a6cf120
+[INFO] 13-06-2024 21:02:45 [main] LogUtils - Start test case testLoginFailWithEmailInvalid
+[INFO] 13-06-2024 21:02:45 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:02:46 [main] LogUtils - Javascript is NOT Ready.
+[INFO] 13-06-2024 21:02:46 [main] LogUtils - Set text: admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 21:02:46 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 21:02:48 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 21:02:48 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:02:48 [main] LogUtils - FAILED!! Test case testLoginFailWithEmailInvalid
+[ERROR] 13-06-2024 21:02:48 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 21:02:50 [main] LogUtils - Start test case testLoginFailWithEmailNull
+[INFO] 13-06-2024 21:02:51 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:02:51 [main] LogUtils - Set text:  on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 21:02:52 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 21:02:52 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 21:02:52 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:02:52 [main] LogUtils - FAILED!! Test case testLoginFailWithEmailNull
+[ERROR] 13-06-2024 21:02:52 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 21:02:54 [main] LogUtils - Start test case testLoginFailWithPasswordInvalid
+[INFO] 13-06-2024 21:02:55 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:02:55 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 21:02:56 [main] LogUtils - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 21:02:57 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 21:02:57 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:02:57 [main] LogUtils - FAILED!! Test case testLoginFailWithPasswordInvalid
+[ERROR] 13-06-2024 21:02:57 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 21:02:59 [main] LogUtils - Start test case testLoginFailWithPasswordNull
+[INFO] 13-06-2024 21:03:00 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:03:00 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 21:03:00 [main] LogUtils - Set text:  on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 21:03:00 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 21:03:00 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:03:00 [main] LogUtils - FAILED!! Test case testLoginFailWithPasswordNull
+[ERROR] 13-06-2024 21:03:00 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 21:03:01 [main] LogUtils - onFinish: Thu Jun 13 21:03:01 ICT 2024
+[INFO] 13-06-2024 21:07:37 [main] LogUtils - onStart: Thu Jun 13 21:07:37 ICT 2024
+[INFO] 13-06-2024 21:07:39 [main] LogUtils - Start test case testLoginSuccess
+[INFO] 13-06-2024 21:07:44 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:07:44 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 21:07:44 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 21:07:46 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 21:07:46 [main] LogUtils - Get Current URL: https://cms.anhtester.com/admin
+[INFO] 13-06-2024 21:07:47 [main] LogUtils - PASSED!! Test case testLoginSuccess
+[INFO] 13-06-2024 21:07:48 [main] LogUtils - Start test case testLoginFailWithEmailInvalid
+[INFO] 13-06-2024 21:07:50 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:07:50 [main] LogUtils - Set text: admin123@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 21:07:50 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 21:07:51 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 21:07:51 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:07:51 [main] LogUtils - FAILED!! Test case testLoginFailWithEmailInvalid
+[ERROR] 13-06-2024 21:07:51 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 21:07:53 [main] LogUtils - Start test case testLoginFailWithEmailNull
+[INFO] 13-06-2024 21:07:54 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:07:55 [main] LogUtils - Set text:  on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 21:07:55 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 21:07:55 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 21:07:55 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:07:55 [main] LogUtils - FAILED!! Test case testLoginFailWithEmailNull
+[ERROR] 13-06-2024 21:07:55 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 21:07:57 [main] LogUtils - Start test case testLoginFailWithPasswordInvalid
+[INFO] 13-06-2024 21:07:58 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:07:58 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 21:07:59 [main] LogUtils - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 21:08:00 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 21:08:00 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:08:00 [main] LogUtils - FAILED!! Test case testLoginFailWithPasswordInvalid
+[ERROR] 13-06-2024 21:08:00 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 21:08:01 [main] LogUtils - Start test case testLoginFailWithPasswordNull
+[INFO] 13-06-2024 21:08:03 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:08:03 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 21:08:03 [main] LogUtils - Set text:  on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 21:08:03 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 21:08:03 [main] LogUtils - Get Current URL: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:08:03 [main] LogUtils - FAILED!! Test case testLoginFailWithPasswordNull
+[ERROR] 13-06-2024 21:08:03 [main] LogUtils - java.lang.AssertionError: FAIL. Không còn ở trang Login expected [true] but found [false]
+[INFO] 13-06-2024 21:08:04 [main] LogUtils - onFinish: Thu Jun 13 21:08:04 ICT 2024
+[INFO] 13-06-2024 21:10:12 [main] LogUtils - onStart: Thu Jun 13 21:10:12 ICT 2024
+[INFO] 13-06-2024 21:10:14 [main] LogUtils - Start test case testAddNewProduct
+[INFO] 13-06-2024 21:10:17 [main] LogUtils - Open Url: https://cms.anhtester.com/login
+[INFO] 13-06-2024 21:10:17 [main] LogUtils - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 13-06-2024 21:10:18 [main] LogUtils - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 13-06-2024 21:10:19 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 13-06-2024 21:10:19 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Products']
+[INFO] 13-06-2024 21:10:21 [main] LogUtils - Click element By.xpath: //span[normalize-space()='Add New Product']
+[INFO] 13-06-2024 21:10:21 [main] LogUtils - Set text:  on element By.xpath: //input[@placeholder='Product Name']
+[INFO] 13-06-2024 21:10:21 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Save & Publish']
+[INFO] 13-06-2024 21:10:22 [main] LogUtils - Set text: npp on element By.xpath: //input[@placeholder='Product Name']
+[INFO] 13-06-2024 21:10:22 [main] LogUtils - Click element By.xpath: //div[contains(text(),'Sport shoes')]
+[INFO] 13-06-2024 21:10:22 [main] LogUtils - Click element By.xpath: //li//a[@id='bs-select-1-1']
+[INFO] 13-06-2024 21:10:23 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Brand']/following-sibling::div//button
+[INFO] 13-06-2024 21:10:23 [main] LogUtils - Click element By.xpath: //a[@id='bs-select-2-1']
+[INFO] 13-06-2024 21:10:23 [main] LogUtils - Set text: Kg on element By.xpath: //input[@placeholder='Unit (e.g. KG, Pc etc)']
+[INFO] 13-06-2024 21:10:24 [main] LogUtils - Set text: 0,5 on element By.xpath: //input[@placeholder='0.00']
+[INFO] 13-06-2024 21:10:24 [main] LogUtils - Set text: 1 on element By.xpath: //input[@name='min_qty']
+[INFO] 13-06-2024 21:10:24 [main] LogUtils - Set text: Clother on element By.xpath: //span[@role='textbox']
+[INFO] 13-06-2024 21:10:24 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Gallery Images (600x600)']/following-sibling::div
+[INFO] 13-06-2024 21:10:25 [main] LogUtils - Click element By.xpath: //div[@title='anh.png']
+[INFO] 13-06-2024 21:10:25 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Add Files']
+[INFO] 13-06-2024 21:10:27 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Thumbnail Image (300x300)']/following-sibling::div//div[2]
+[INFO] 13-06-2024 21:10:28 [main] LogUtils - Click element By.xpath: //div[@title='Cosy.png']//img[@class='img-fit']
+[INFO] 13-06-2024 21:10:29 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Add Files']
+[INFO] 13-06-2024 21:10:30 [main] LogUtils - Click element By.xpath: //div[contains(text(),'Youtube')]
+[INFO] 13-06-2024 21:10:30 [main] LogUtils - Click element By.xpath: //li//a[@id='bs-select-3-1']
+[INFO] 13-06-2024 21:10:31 [main] LogUtils - Click element By.xpath: //div[@class='col-md-1']//label[@class='aiz-switch aiz-switch-success mb-0']
+[INFO] 13-06-2024 21:10:31 [main] LogUtils - Click element By.xpath: (//div[contains(text(),'Nothing selected')])[1]
+[INFO] 13-06-2024 21:10:31 [main] LogUtils - Click element By.xpath: //li//a[@id='bs-select-4-3']
+[INFO] 13-06-2024 21:10:31 [main] LogUtils - Click element By.xpath: //div[@class='col-md-1']//label[@class='aiz-switch aiz-switch-success mb-0']
+[INFO] 13-06-2024 21:10:32 [main] LogUtils - Set text: 200 on element By.xpath: //input[@placeholder='Unit price']
+[INFO] 13-06-2024 21:10:36 [main] LogUtils - Set text: 5 on element By.xpath: //input[@placeholder='Discount']
+[INFO] 13-06-2024 21:10:37 [main] LogUtils - Set text: 20 on element By.xpath: //input[@placeholder='Quantity']
+[INFO] 13-06-2024 21:10:38 [main] LogUtils - Set text: 9 on element By.xpath: //input[@placeholder='SKU']
+[INFO] 13-06-2024 21:10:38 [main] LogUtils - Set text: https://viettel.com.vn on element By.xpath: //input[@placeholder='External link']
+[INFO] 13-06-2024 21:10:39 [main] LogUtils - Set text: Product description on element By.xpath: //div[@role='textbox']
+[INFO] 13-06-2024 21:10:41 [main] LogUtils - Set text: This is meta title on element By.xpath: //input[@placeholder='Meta Title']
+[INFO] 13-06-2024 21:10:43 [main] LogUtils - Set text: This is meta description on element By.xpath: //textarea[@name='meta_description']
+[INFO] 13-06-2024 21:10:45 [main] LogUtils - Click element By.xpath: //label[normalize-space()='Meta Image']//following-sibling::div
+[INFO] 13-06-2024 21:10:46 [main] LogUtils - Click element By.xpath: //div[@title='images.jpg']//img[@class='img-fit']
+[INFO] 13-06-2024 21:10:47 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Add Files']
+[INFO] 13-06-2024 21:10:49 [main] LogUtils - Set text: 5 on element By.xpath: //input[@name='low_stock_quantity']
+[INFO] 13-06-2024 21:10:50 [main] LogUtils - Click element By.xpath: //button[normalize-space()='Save & Publish']
+[INFO] 13-06-2024 21:10:51 [main] LogUtils - Set text: npp on element By.xpath: //input[@id='search']
+[INFO] 13-06-2024 21:10:55 [main] LogUtils - PASSED!! Test case testAddNewProduct
+[INFO] 13-06-2024 21:10:55 [main] LogUtils - onFinish: Thu Jun 13 21:10:55 ICT 2024
